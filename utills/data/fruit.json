@@ -1,0 +1,340 @@
+{
+    "fruit":[
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Acai-Berry.jpg",
+    "name":"Acai Berry = काला जामुन"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/apricot-in-hindi.jpg",
+    "name":"Apricot in hindi = खुबानी/ज़र्दालू"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/apple-in-hindi.jpg",
+    "name":"Apple/Pippin fruit = सेब"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/avocado-fruit.jpg",
+    "name":"Avocado, Butterfruit = मक्खन फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Black-Currant.jpg",
+    "name":"Black Currant = फालसेब"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Banana.jpg",
+    "name":"Banana/Plantain = केला"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Pomegranate.jpg",
+    "name":"Pomegranate = अनार/दाड़िम"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/mango.jpg",
+    "name":"Mango = आम"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Lemon.jpg",
+    "name":"Lemon = नींबू"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Orange.jpg",
+    "name":"Orange = नारंगी/संतरा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Sweet-Lime.jpg",
+    "name":"Sweet Lime = मौसंबी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Pineapple.jpg",
+    "name":"Pineapple = अनानास"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Grapes.jpg",
+    "name":"Grapes = अंगूर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Watermelon.jpg",
+    "name":"Watermelon = तरबूज"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Muskmelon.jpg",
+    "name":"Muskmelon/Cantaloupe = खरबूजा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Papaya.jpg",
+    "name":"Papaya = पपीता"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/guava.jpg",
+    "name":"Guava = अमरूद"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Blueberry.jpg",
+    "name":"Blueberry = ब्लूबेरी/नीलबदरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/jamun-fruit.jpg",
+    "name":"Blackberry/Java plum/Jambul = जामुन"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Longan.jpg",
+    "name":"Longan/Lychee = लीची"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Peach.jpg",
+    "name":"Peach/Nectarine = आड़ू/सतालू"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Pear.jpg",
+    "name":"Pear = नाशपाती/बबूगोशा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Prickly-Pear.jpg",
+    "name":"Prickly Pear = कांटेदार नाशपाती"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Jujube.jpg",
+    "name":"Jujube = बेर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Strawberry.jpg",
+    "name":"Strawberry = स्ट्रॉबेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/pomelo.jpg"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Sapodilla.jpg",
+    "name":"Sapodilla/Sapota = चीकू/नसबेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Cherry.jpg",
+    "name":"Cherry = ग्लास मेवा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Cashew-Apple.jpg",
+    "name":"Cashew Apple = काजू फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Quince.jpg",
+    "name":"Quince = श्रीफल/बही/सफरजल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Passion-Fruit.jpg",
+    "name":"Passion Fruit = कृष्णा फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Custard-Apple.jpg",
+    "name":"Custard Apple = सीताफल/शरीफा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Fig.jpg",
+    "name":"Fig = अंजीर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Jackfruit.jpg",
+    "name":"Jackfruit = कटहल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Palm-Fruit.jpg",
+    "name":"Palm Fruit = ताड़ का फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Malay-Apple.jpg"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Wood-Apple.jpg",
+    "name":"Wood Apple/Bael = बेल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Persimmon.jpg",
+    "name":"Persimmon = तेंदू फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Plum.jpg",
+    "name":"Plum/Sloe = आलूबुखारा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Raspberry.jpg",
+    "name":"Raspberry = रसभरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Red-Banana.jpg",
+    "name":"Red Banana = लाल केला"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Soursop.jpg",
+    "name":"Soursop = लक्ष्मण फल / शुल-राम फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Star-Fruit.jpg",
+    "name":"Star Fruit = कमरख, करम्बोला"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Sugar-Cane.jpg",
+    "name":"Sugar Cane = गन्ना"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Mulberry.jpg",
+    "name":"Mulberry = शहतूत"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Kiwi.jpg",
+    "name":"Kiwi = कीवी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Loquat.jpg",
+    "name":"Loquat = लोकाट"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Malta-fruit.jpg",
+    "name":"Malta fruit = मालटा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Mimusops.jpg",
+    "name":"Mimusops = खिरनी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Dates.jpg",
+    "name":"Dates = खजूर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Olive-Fruit.jpg",
+    "name":"Olive Fruit = जैतून"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Dragonfruit.jpg",
+    "name":"Dragonfruit/Pitaya = ड्रैगन फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Elderberry.jpg",
+    "name":"Elderberry = एल्डरबेर्रिज़"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/monk-fruit.jpg",
+    "name":"Monk Fruit = साधु फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/rasbhari.jpg",
+    "name":"Makoy Fruit = रसभरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Cloudberry.jpg",
+    "name":"Cloudberry = क्लाउड बेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Cranberry.jpg",
+    "name":"Cranberry = क्रैनबेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Damson.jpg",
+    "name":"Damson = झरबेर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Feijoa.jpg",
+    "name":"Feijoa = फ़ेजोआ"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Goji-berry.jpg",
+    "name":"Goji berry = गोजी बेर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Honeyberry.jpg",
+    "name":"Honeyberry = हनी बेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Huckleberry.jpg",
+    "name":"Huckleberry = हकल्बेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Jabuticaba.jpg",
+    "name":"Jabuticaba = जबुटिकाबा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Kiwano.jpg",
+    "name":"Kiwano = किवानो"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Mangosteen.jpg",
+    "name":"Mangosteen = मैंगोस्टीन"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Miracle-Fruit.jpg",
+    "name":"Miracle Fruit = चमत्कारी फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Nance.jpg",
+    "name":"Nance = नैन्स"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Pineberry.jpg",
+    "name":"Pineberry = पाइनबेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Salak.jpg",
+    "name":"Salak = सलक"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Owari-Satsuma.jpg",
+    "name":"Satsuma = सात्सुमा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Star-Apple.jpg",
+    "name":"Star Apple = सितारा सेब"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Surinam-Cherry.jpg",
+    "name":"Surinam Cherry = सुरिनाम चेरी"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Tamarillo.jpg",
+    "name":"Tamarillo = तमारिल्लो"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Ugli-fruit.jpg",
+    "name":"Ugli fruit = उगली फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/tadgola.jpg",
+    "name":"Palmyra fruit = ताड गोला"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/water-coconut.jpg",
+    "name":"Coconut = नारियल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/08/Sweet-Potato.jpg",
+    "name":"Sweet Potato = शकरकंद"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Kadamba-Fruit.jpg",
+    "name":"Kadamba Fruit = कदंब फल"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Jicama-fruit.jpg"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Sherbet-Berry.jpg",
+    "name":"Grewia Asiatica = फालसा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Jungle-Jalebi.jpg"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/badhal-fruit.jpg",
+    "name":"Monkey Fruit = बड़हल/बढ़ल/बड़हर"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Mandarin.jpg",
+    "name":"Mandarin, Citrus nobilis = किन्नू"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Limonia-Acidissima.jpg",
+    "name":"Limonia Acidissima = कैथा"
+    },
+    {
+    "images":"https://zaykarecipes.com/wp-content/uploads/2018/09/Green-Tamarind.jpg",
+    "name":"Tamarind = इमली"
+    }
+    ]
+    }

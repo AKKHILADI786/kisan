@@ -1,0 +1,300 @@
+{
+    "vegetable":[
+    {
+    "name":"Tomato (टोमेटो)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/tomato.jpg"
+    },
+    {
+    "name":"Onion (ऑनियन)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/onion.jpg"
+    },
+    {
+    "name":"Potato (पोटैटो)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/potato.jpg"
+    },
+    {
+    "name":"Turnip (टर्निप)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Turnip.jpg"
+    },
+    {
+    "name":"White Goose Foot (वाइट गूस फूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/White-Goose-Foot.jpg"
+    },
+    {
+    "name":"Turmeric (टर्मेरिक)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Turmeric.jpg"
+    },
+    {
+    "name":"Sweet Potato (स्वीट पोटैटो)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Sweet-Potato.jpg"
+    },
+    {
+    "name":"Spring Onion (स्प्रिंग ऑनियन), Green Onion (ग्रीन ऑनियन)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Spring-Onion.jpg"
+    },
+    {
+    "name":"Spinach (स्पिनच)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Spinach.jpg"
+    },
+    {
+    "name":"Snake Gourd (स्नेक गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Snake-Gourd.jpg"
+    },
+    {
+    "name":"Pumpkin (पम्पकिन)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/pumpkin-e1569466433401.jpg"
+    },
+    {
+    "name":"Garlic (गार्लिक)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Garlic.jpg"
+    },
+    {
+    "name":"Fenugreek Leaf (फेनुग्रीक लीफ)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Fenugreek-Leaf.jpg"
+    },
+    {
+    "name":"Ginger (जिंजर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/ginger.jpg"
+    },
+    {
+    "name":"Green Chilli (ग्रीन चिल्ली)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Green-chilli.jpg"
+    },
+    {
+    "name":"Green Beans (ग्रीन बीन्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Green-Beans.jpg"
+    },
+    {
+    "name":"Radish (रेडिस)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/radish.jpg"
+    },
+    {
+    "name":"Jackfruit (जैकफ्रूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Jackfruit.jpg"
+    },
+    {
+    "name":"Lady Finger (लेडी फिंगर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/lady-finger.jpg"
+    },
+    {
+    "name":"Mushroom (मशरूम)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Mushroom.jpg"
+    },
+    {
+    "name":"Maize (माईज)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Maize.jpg"
+    },
+    {
+    "name":"Natal Plum (नेटल पल्म)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Natal-Plum.jpg"
+    },
+    {
+    "name":"Mustard Greens (मस्टर्ड ग्रीन्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Mustard-Greens.jpg"
+    },
+    {
+    "name":"Pointed Gourd (पॉइंटेड गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Pointed-Gourd.jpg"
+    },
+    {
+    "name":"Peppermint (पेपरमिंट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Peppermint.jpg"
+    },
+    {
+    "name":"Ridged Gourd (रिज्ड गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Ridged-Gourd.jpg"
+    },
+    {
+    "name":"Red Chilli (रेड चिल्ली)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Red-Chilli.jpg"
+    },
+    {
+    "name":"Peas (पीज)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Peas.jpg"
+    },
+    {
+    "name":"Curry Leaf (करी लीफ)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Curry-Leaf.jpg"
+    },
+    {
+    "name":"Cucumber (कुकुम्बर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Cucumber.jpg"
+    },
+    {
+    "name":"Corn (कॉर्न)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Corn.jpg"
+    },
+    {
+    "name":"Coriander Leaf (कोरीएंडर लीफ)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Coriander-Leaf.jpg"
+    },
+    {
+    "name":"Cluster Beans (क्लस्टर बीन्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Cluster-Beans.jpg"
+    },
+    {
+    "name":"Chilli (चिल्ली)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Chilli.jpg"
+    },
+    {
+    "name":"Chickpeas, Gram (चिकपीस, ग्राम)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Chickpeas.jpg"
+    },
+    {
+    "name":"Celery (सेलरी)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Celery.jpg"
+    },
+    {
+    "name":"Cauliflower (कॉलीफ्लॉवर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/cauliflower.jpg"
+    },
+    {
+    "name":"Carrot (कैरट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Carrot.jpg"
+    },
+    {
+    "name":"Capsicum (कैप्सिकम)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Capsicum.jpg"
+    },
+    {
+    "name":"Cabbage (कैबेज)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/cabbage.jpg"
+    },
+    {
+    "name":"Brinjal (ब्रिंजल)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Brinjal.jpg"
+    },
+    {
+    "name":"Bottle Gourd (बोटल गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Bottle-Gourd.jpg"
+    },
+    {
+    "name":"Black Pepper (ब्लैक पीपर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Black-Pepper.jpg"
+    },
+    {
+    "name":"Bitter Gourd (बिटर गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Bitter-Gourd.jpg"
+    },
+    {
+    "name":"Bell Pepper (बेल पीपर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Bell-Pepper.jpg"
+    },
+    {
+    "name":"Beetroot (बीटरूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Beetroot.jpg"
+    },
+    {
+    "name":"Aubergine (औवेरजिन)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Aubergine.jpg"
+    },
+    {
+    "name":"Artichoke (आरटीचोक)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Artichoke.jpg"
+    },
+    {
+    "name":"Arrowroot (अरोरूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Arrowroot.jpg"
+    },
+    {
+    "name":"Amaranth (एमरंथ)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/amaranth.jpg"
+    },
+    {
+    "name":"Fava Beans (फवा बीन्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Fava-Beans.jpg"
+    },
+    {
+    "name":"Eggplant (एगप्लांट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Eggplant.jpg"
+    },
+    {
+    "name":"White Eggplant (वाइट एगप्लांट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/white-eggplant.jpg"
+    },
+    {
+    "name":"Tendli (तेंडली)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/tendli.jpg"
+    },
+    {
+    "name":"Colocasia, Taro root (कोलोकसिया, तरो रूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/taro-root.jpg"
+    },
+    {
+    "name":"Red cabbage (रेड कैबेज)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/red-cabbage.jpg"
+    },
+    {
+    "name":"Raw Papaya (रॉ पपाया)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/raw-papaya.jpg"
+    },
+    {
+    "name":"Raw Banana (रॉ बनाना)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/raw-banana.jpg"
+    },
+    {
+    "name":"Raw Banana Flower (रॉ बनाना फ्लावर)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/raw-banana-flower.jpg"
+    },
+    {
+    "name":"Natal Plum (नेटल पल्म)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/netal-plum.jpg"
+    },
+    {
+    "name":"Mouse Melon (माउस मेलोंन)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/mause-melon.jpg"
+    },
+    {
+    "name":"Kohlrabi (कॉलराबी )",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/kohlrabi.jpg"
+    },
+    {
+    "name":"Kidney beans (किडनी बीन्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/kidney-beans.jpg"
+    },
+    {
+    "name":"Indian Gooseberry (इंडियन गूस्बेर्री )",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/indian-gooseberry.jpg"
+    },
+    {
+    "name":"Fennel (फेंनेल)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/fennel.jpg"
+    },
+    {
+    "name":"Elephant foot yam (एलीफैंट फूट याम)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Elephant-foot-yam.jpg"
+    },
+    {
+    "name":"Drumstick (ड्रमस्टिक)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/drum-stick.jpg"
+    },
+    {
+    "name":"Cucumis Utilissimus (कुक्मिस यूटीलिस्सिमुस)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/cuculis-utilisimus.jpg"
+    },
+    {
+    "name":"Colocasia Root (कोलोकेसिया रूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/Colocasia-root-e1569641209761.jpg"
+    },
+    {
+    "name":"Broccoli (ब्रोकोली)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/broccoli.jpg"
+    },
+    {
+    "name":"Bamboo shoots (बम्बू शूट)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/bamboo-shoots.jpg"
+    },
+    {
+    "name":"Ash Gourd (अश गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/ash-gourd.jpg"
+    },
+    {
+    "name":"Apple Gourd (एप्पल गार्ड)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/apple-gourd.jpg"
+    },
+    {
+    "name":"Amaranth Leaves (अमरंथ लीव्स)",
+    "images":"https://meaninginhindi.net/wp-content/uploads/2019/09/amaranth-leaves.jpg"
+    }
+    ]
+    }
