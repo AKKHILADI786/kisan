@@ -125,7 +125,7 @@ class Header extends Component {
                             <a className="nav-link menu_item" href="#">About</a>
                         </li>
                         <li className="nav-item  m-3">
-                            <a className="nav-link  menu_item" id="contact" href="html/contact.html">Contacts</a>
+                            <Link to="/contact" className="nav-link  menu_item" id="contact" href="html/contact.html">Contacts</Link>
                         </li>
                     </ul>
                 </div>

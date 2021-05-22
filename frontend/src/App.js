@@ -11,6 +11,7 @@ import Product from './component/product'
 import Register from './component/Register'
 import PlaceOrder from './component/placeOrder'
 import Checkout from './component/checkout'
+import Contactus from './component/contactus'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route exact path="/placeorder" component={PlaceOrder} />
       <Route exact path="/product" component={Product} />
       <Route exact path="/checkout" component={Checkout} />
+      <Route exact path="/contact" component={Contactus} />
 
       </Switch>
       <hr />

@@ -26,7 +26,7 @@ export default function Top_card() {
                             <h6 class="card_item_text">Rs.35000/-</h6>
 
                         </div>
-                        <hr />
+                        <hr className="card_hr"/>
                     </div>
                     <div class="row">
                         <div class="col">
