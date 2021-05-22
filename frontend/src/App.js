@@ -7,6 +7,7 @@ import Clouser from './component/Clouser'
 import Footer from './component/Footer'
 import Login from './component/login'
 import Profile from './component/profile'
+import Product from './component/product'
 import Register from './component/Register'
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Register} />
       <Route exact path="/profile" component={Profile} />
+      <Route exact path="/product" component={Product} />
 
       </Switch>
       <hr />
