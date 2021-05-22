@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Route,BrowserRouter as Router} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+
 import './App.css';
 import Header from './component/Header'
 import Clouser from './component/Clouser'
@@ -9,19 +10,20 @@ import Register from './component/Register'
 
 
 function App() {
+
   return (
 
     <Router>
-      <Header/>
-      {/* <Login/> */}
-      <Route path="/login" component={Login} />  
-      <Route path="/register" component={Register} />  
-      <Route path="/home" component={Clouser} />  
-      
-      <hr/>
-      <Footer/>
+      <Header />
+      <Switch>
+      <Route exact path="/" component={Clouser} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/register" component={Register} />
+      </Switch>
+      <hr />
+      <Footer />
     </Router>
-    
+
   );
 }
 
