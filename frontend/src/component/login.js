@@ -28,6 +28,7 @@ class Login extends Component {
                     window.alert(`${data.Error}`)
                 }
                 else{
+                    window.sessionStorage.user=true;
                     window.alert('Login successfully')
                     window.location='/';
 

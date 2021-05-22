@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 import logo from '../logo.png'
 import {Link} from 'react-router-dom'
 
+function changevalue(){
+    window.sessionStorage.user=false;
+    window.location='/';
+}
 
-export default function Header() {
+class Header extends Component {
+
+    render(){
+
+    let a=window.sessionStorage.user;
+    console.log(a);
+    
+
     return (
         <header>
             <nav className="navbar navbar-expand-lg top_menu">
@@ -26,7 +37,10 @@ export default function Header() {
                     </div>
                     <div className="login_register">
                         <Link to="/register" className="btn btn-outline-success my-2 my-sm-0 me-2 upp_btn">Register</Link>
-                        <Link to="/login" className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" >Login</Link>
+                        {a?<button onClick={changevalue} className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn">Logout</button>: <Link to="/login" className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" >
+                            Login
+                            </Link>}
+                        
                     </div>
                     <div onclick="myFunction()" className="toggler" id="toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-border-width toggler" viewBox="0 0 16 16">
@@ -119,4 +133,7 @@ export default function Header() {
             </nav>
         </header>
     )
+    }
 }
+
+export default Header
