@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../logo.png'
+import {Link} from 'react-router-dom'
 
 
 export default function Header() {
@@ -24,8 +25,8 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="login_register">
-                        <button className="btn btn-outline-success my-2 my-sm-0 me-2 upp_btn" type="submit">Register</button>
-                        <button className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" type="submit">Login</button>
+                        <Link to="/register" className="btn btn-outline-success my-2 my-sm-0 me-2 upp_btn">Register</Link>
+                        <Link to="/login" className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" >Login</Link>
                     </div>
                     <div onclick="myFunction()" className="toggler" id="toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-border-width toggler" viewBox="0 0 16 16">
