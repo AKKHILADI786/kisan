@@ -2,10 +2,12 @@ import React from 'react'
 import fir from '../images/1.jpg'
 import sec from '../images/2.jpg'
 import thi from '../images/3.jpg'
+import BidAsk from './BidAsk'
+import TopDeals from './TopDeals'
 
 export default function Clouser() {
     return (
-
+        <div>
         <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,6 +49,17 @@ export default function Clouser() {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
+
+            
+        </div>
+        
+        <div className="row cousel_bot bg-success">
+            <span>Todays Deals</span>
+        </div>
+        <TopDeals/>
+        <BidAsk/>
+        <TopDeals/>
+        <TopDeals/>
         </div>
     )
 }

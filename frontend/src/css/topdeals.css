@@ -1,0 +1,69 @@
+.cousel_bot{
+    height: 50px !important;
+    /* background-color: #1a9c5f; */
+    color: white;
+    font-size: 25px;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 1px solid rgb(92, 92, 92);
+    margin-bottom: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.con{
+    margin: 0px !important;
+}
+.my_card{
+    height: 370px;
+    border: 1px solid #d8dadb;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 5px;
+
+}
+.my_card:hover{
+    transform: scale(1.01);
+}
+
+.card_image{
+    width: 100%;
+    max-height: 105px;
+    border-radius: 5px;
+}
+#best_deals{
+    margin: 0px !important;
+}
+.card_image:hover{
+    transform: scale(1.05);
+
+}
+#dealer_login{
+    font-weight: 900 !important;
+}
+#dealer_login:hover{
+    transform: scale(1.05);
+}
+#dealer_register{
+    font-weight: 900 !important;
+}
+#dealer_register:hover{
+    transform: scale(1.05);
+}
+.card_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c0e00;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 5px;
+
+}
+.card_item_text{
+    color: #898a8b;
+    margin: 2px;
+    font-size: 13px;
+    font-weight: 600;
+}
