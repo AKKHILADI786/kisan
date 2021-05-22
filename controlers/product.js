@@ -31,5 +31,5 @@ async function getbyproductid(productId){
 
 
 module.exports={
-    getByType,getbyproductid
+    getByType,getbyproductid,createproduct
 }
