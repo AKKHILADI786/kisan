@@ -18,23 +18,25 @@ class Checkout extends Component {
 
 
     render() {
-
+        let data=JSON.parse(window.sessionStorage.order_user);
+        console.log(data)
         return (
             <div>
                 <div className="containe container">
                     <div className="d-flex justify-content-center h-100">
-                        <div className="car card ">
+                        <div className="car carr card ">
                             <div className="card-header">
-                                <h3>User Information</h3>
+                                <h3>Buyer Information</h3>
 
                             </div>
                             <div className="card-body">
                                 <div>
-                                    <UserInfo calll="Name" val="Ramesh"/>
-                                    <UserInfo calll="Phone" val="987654321"/>
-                                    <UserInfo calll="Email" val="ajaynager@gmail.com"/>
-                                    <UserInfo calll="City" val="Ludhiana"/>
-                                    <UserInfo calll="State" val="Punjab"/>
+                                    <UserInfo calll="Name" val={data.name}/>
+                                    <UserInfo calll="Phone" val={data.phone}/>
+                                    <UserInfo calll="Email" val={data.email}/>
+                                    <UserInfo calll="Address" val={data.address}/>
+                                    <UserInfo calll="City" val={data.city}/>
+                                    <UserInfo calll="State" val={data.state}/>
                                 </div>
                             </div>
                             <div className="card-footer">

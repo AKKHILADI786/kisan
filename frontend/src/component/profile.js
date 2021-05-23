@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../css/cart.css'
 import '../css/Register.css'
+import Element from './elements'
+import Order from './profile_order'
 
 
 
@@ -30,56 +32,7 @@ class Profile extends Component {
                             </div>
                             
                             <div className="card-body heading">
-                                <div className="container  cart border border-success" id="product_items">
-                                    <div className="row main_heading">
-                                        <div className="col-md-1 py-2 text-center border border-success">
-                                            Sr.no
-                        </div>
-                                        <div className="col-md-2  py-2 text-center  border border-success">
-                                            Product
-                        </div>
-                                        <div className="col-md-5  py-2 text-center  border border-success">
-                                            Product Details
-                        </div>
-                                        <div className="col-md-2  py-2 text-center border border-success">
-                                            Quantity
-                        </div>
-                                        <div className="col-md-2 py-2  text-center border border-success">
-                                            Price
-                        </div>
-
-                                    </div>
-                                    <div className="row items">
-                                        <div
-                                            className="col-md-1 border text-center  d-flex align-items-center justify-content-center border-success">
-                                            1
-                        </div>
-                                        <div className="col-md-2 border d-flex align-items-center justify-content-center  border-success">
-                                            <div className="p-1">
-                                                <img src="/images/mobile/mi/1 (2).jpeg" className="cart_image float-center" alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-5 border  d-flex align-items-center justify-content-center  border-success">
-                                            <div>
-                                                <div className="text-center">Product Details</div>
-                                                <div className="d-flex align-items-center justify-content-center">
-                                                    <button className="btn btn-outline-warning remove"><span id="remove_text">Remove</span></button>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div
-                                            className="col-md-2 border text-center border-success justify-content-center d-flex align-items-center">
-                                            1
-                        </div>
-                                        <div
-                                            className="col-md-2 border text-center border-success justify-content-center d-flex align-items-center">
-                                            Rs.8000 /-
-                        </div>
-                                    </div>
-
-                                </div>
+                                <Element/>
                             </div>
                             
                             <div className="card-footer">
@@ -87,62 +40,7 @@ class Profile extends Component {
                                     <h3>Orders</h3>
                                 </div>
                                 <div className="card-body heading">
-                                    <div className="container  cart border border-success">
-                                        <div className="row main_heading">
-                                            <div className="col-md-1 py-2 text-center border border-success">
-                                                Sr.no
-                            </div>
-                                            <div className="col-md-2  py-2 text-center  border border-success">
-                                                Product
-                            </div>
-                                            <div className="col-md-3  py-2 text-center  border border-success">
-                                                Product Details
-                            </div>
-                                            <div className="col-md-2  py-2 text-center border border-success">
-                                                Quantity
-                            </div>
-                                            <div className="col-md-2 py-2  text-center border border-success">
-                                                Price
-                            </div>
-                                            <div className="col-md-2 py-2 text-center  border border-success">
-                                                Total
-                            </div>
-                                        </div>
-                                        <div className="row items">
-                                            <div
-                                                className="col-md-1 border text-center  d-flex align-items-center justify-content-center border-success">
-                                                1
-                            </div>
-                                            <div className="col-md-2 border d-flex align-items-center justify-content-center  border-success">
-                                                <div className="p-1">
-                                                    <img src="images/card/4.jpg" className="cart_image float-center" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-3 border  d-flex align-items-center justify-content-center  border-success">
-                                                <div>
-                                                    <div className="text-center">Product Details</div>
-                                                    <div className="d-flex align-items-center justify-content-center">
-                                                        <button className="btn btn-outline-warning remove"><span id="remove_text">Done</span></button>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div
-                                                className="col-md-2 border text-center border-success justify-content-center d-flex align-items-center">
-                                                1
-                            </div>
-                                            <div
-                                                className="col-md-2 border text-center border-success justify-content-center d-flex align-items-center">
-                                                Rs.8000 /-
-                            </div>
-                                            <div
-                                                className="col-md-2 border text-center  d-flex justify-content-center align-items-center border-success">
-                                                Rs.8552 /-
-                            </div>
-                                        </div>
-
-                                    </div>
+                                    <Order/>
                                 </div>
                             </div>
 

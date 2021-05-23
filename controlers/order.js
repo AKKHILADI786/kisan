@@ -6,11 +6,12 @@ async function getorderBydealerId(dealerId){
     const data=await orders.findAll({
         include:[products],
         where:{
-            dealerId:dealerId
+            userId:dealerId
         }
     })
     return data;
 }
+
 async function getbuy(productId,price){
     const data=await orders.findAll({
         where:{

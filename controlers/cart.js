@@ -1,9 +1,9 @@
-const {db,users,dealers,carts, products} =require('../database/models');
+const {db,users,dealers,carts,orders, products} =require('../database/models');
 
 
 async function getcartByuserId(userId){
     const data=await carts.findAll({
-        include:[products],
+        include:[products,orders,users],
         where:{
             userId
         }
