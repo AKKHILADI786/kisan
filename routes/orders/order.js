@@ -8,10 +8,11 @@ route.get('/:dealerId',async (req,res)=>{
 })
 
 route.post('/',async (req,res)=>{
-    console.log(req.body.userId,req.body.productId,req.body.dealerId);
-    const data=await createOrderProduct(req.body.userId,req.body.productId,req.body.dealerId);
+    console.log(req.body.userId,req.body.productId,req.body.type,req.body.quantity,req.body.price);
+    const data=await createOrderProduct(req.body.userId,req.body.productId,req.body.type,req.body.quantity,req.body.price);
     res.send(data);
 })
+
 route.post('/d',async (req,res)=>{
     const data=await deleteOrderProductId(req.body.productId);
     res.status(200);

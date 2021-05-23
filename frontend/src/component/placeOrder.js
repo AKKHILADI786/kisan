@@ -4,6 +4,8 @@ import { Link, Redirect } from 'react-router-dom'
 import '../css/login.css'
 import '../css/placeorder.css'
 
+
+
 class PlaceOrder extends Component {
     constructor(props) {
         super(props)
@@ -11,9 +13,9 @@ class PlaceOrder extends Component {
         this.state = {
             quantity: '',
             price: '',
-            productId:'',
-            userId:''
-
+            type: '',
+            productId: '',
+            userId: ''
         }
     }
     changeHandler = (e) => {
@@ -24,27 +26,51 @@ class PlaceOrder extends Component {
 
     submitHandler = (e) => {
         e.preventDefault();
-        console.log(this.state)
-        axios.post('/user/login', this.state)
-            .then(data => {
-                if (data.Error) {
-                    window.alert(`${data.Error}`)
-                }
-                else {
-                    window.sessionStorage.user = true;
-                    window.alert('Login successfully')
-                    window.location = '/';
+        console.log(e.target.value)
+        
+        let pro = JSON.parse(window.sessionStorage.product);
+        let data;
+        let productId;
+        let userId;
+        if (!window.sessionStorage.user) {
+            window.alert('please login first')
+            window.location = '/login';
+        }
+        else {
+            data = JSON.parse(window.sessionStorage.user);
+            productId = pro.id;
+            userId = data.id;
+            
+        }
+        console.log(productId, userId);
 
-                }
-            })
+        this.setState({
+            type: e.target.value,
+            userId:userId,
+            productId:productId
+        })
+        setTimeout(() => {
+            axios.post('/order/',this.state)
+                .then((result)=>{
+                    let data=result.data
+                    console.log(data);
+                })
+            
+        }, 500);
+
+        
     }
 
+
+
+
     render() {
-        const { username, password } = this.state;
-        let pro=this.props.product;
-        console.log(pro)
-        let data=JSON.parse(window.sessionStorage.user);
-        console.log(data);
+        const { quantity, price } = this.state;
+        
+
+
+
+
 
         return (
             <div>
@@ -52,7 +78,7 @@ class PlaceOrder extends Component {
                     <div className="d-flex justify-content-center ">
                         <div className="car pro_car card">
                             <div className="card-header">
-                                
+
 
                             </div>
                             <div className="card-body pro_body">
@@ -61,28 +87,28 @@ class PlaceOrder extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text  name_box"><i className="fa fa-user" aria-hidden="true"></i></span>
                                         </div>
-                                        <input type="text" name="username" value={username} onChange={this.changeHandler} className="form-control" id="username" name="username" placeholder="Quantity" />
+                                        <input type="text" name="quantity" value={quantity} onChange={this.changeHandler} className="form-control" id="username" placeholder="Quantity" />
 
                                     </div>
                                     <div className="input-group form-group my-3">
                                         <div className="input-group-prepend">
                                             <span className="input-group-text  name_box"><i className="fa fa-key" aria-hidden="true"></i></span>
                                         </div>
-                                        <input type="password" name="password" value={password} onChange={this.changeHandler} className="form-control" id="password" name="password" placeholder="Price" />
+                                        <input type="text" name="price" value={price} onChange={this.changeHandler} className="form-control" id="password" placeholder="Price" />
                                     </div>
                                     <div className="row align-items-center remember my-2">
-                                        
-					</div>
+
+                                    </div>
                                     <div className="form-group my-2 ">
                                     </div>
                                 </form>
                             </div>
                             <div className="card-footer pro_footer">
                                 <div className="d-flex my-2 justify-content-center links">
-                                <input type="submit" value="Buy" id="logg" className="btn float-end login_btn mx-3" />
-                                <input type="submit" value="Sell" id="logg" className="btn float-end login_btn" />    
+                                    <input type="submit" name="buy" onClick={this.submitHandler} value="Buy" id="logg" className="btn float-end login_btn mx-3" />
+                                    <input type="submit" name="sell" onClick={this.submitHandler} value="Sell" id="logg" className="btn float-end login_btn" />
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>

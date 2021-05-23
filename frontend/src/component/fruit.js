@@ -193,8 +193,8 @@ export default function Fruit() {
 
 
 function openfile(data){
-    window.location='/product'
     window.sessionStorage.product=JSON.stringify(data);
+    window.location='/product'
 }
 
 

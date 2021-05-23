@@ -98,6 +98,10 @@ const orders=db.define('order',{
         type:data.INTEGER(5),
         allowNull:false
     },
+    type:{
+        type:data.STRING(5),
+        allowNull:false
+    }
 })
 
 

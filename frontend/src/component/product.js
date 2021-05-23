@@ -17,6 +17,7 @@ class Product extends Component {
 
 
     render() {
+
     let a=JSON.parse(window.sessionStorage.product);
         console.log(a);
         return (
@@ -43,7 +44,7 @@ class Product extends Component {
                             </div>
                             
 
-                            <PlaceOrder product={a}/>
+                            <PlaceOrder/>
                             <BidAsk/>
 
                         </div>

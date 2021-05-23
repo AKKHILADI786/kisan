@@ -10,12 +10,15 @@ async function getorderBydealerId(dealerId){
     })
     return data;
 }
-async function createOrderProduct(userId,productId,dealerId){
-    console.log(userId,productId,dealerId);
+async function createOrderProduct(userId,productId,type,quantity,price){
+    console.log(userId,productId,type,quantity,price);
     const data=await orders.create({
         userId:userId,
         productId:productId,
-        dealerId:dealerId
+        type:type,
+        quantity:quantity,
+        price:price
+        
     })
     return data;
 }
