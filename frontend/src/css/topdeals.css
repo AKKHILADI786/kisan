@@ -1,14 +1,13 @@
 .cousel_bot{
-    height: 50px !important;
+    height: 10px !important;
     /* background-color: #1a9c5f; */
     color: white;
-    font-size: 25px;
+    /* font-size: 25px; */
     margin: 0px !important;
     padding: 0px !important;
     border: 1px solid rgb(92, 92, 92);
     margin-bottom: 10px !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+    
     box-shadow: 5px 5px 5px grey;
 }
 

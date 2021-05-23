@@ -54,11 +54,15 @@ export default function Clouser() {
         </div>
         
         <div className="row cousel_bot bg-success">
-            <span>Todays Deals</span>
+            
         </div>
         <TopDeals/>
+        <hr/>
         <BidAsk/>
+        <hr/>
         <TopDeals/>
+        <hr/>
+
         <TopDeals/>
         </div>
     )

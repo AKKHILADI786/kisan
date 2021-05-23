@@ -21,23 +21,24 @@ class BidAsk extends Component {
                 <div className="row">
                 <div className="col-6">
                     <ul id="first-team-player">
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
+                    <Order fir="25" sec="120"/>
+                    <Order fir="100" sec="62"/>
+                    <Order fir="250" sec="94"/>
+                    <Order fir="50" sec="250"/>
+                    <Order fir="60" sec="300"/>
+                    <Order fir="20" sec="90"/>
+                    
                        
                     </ul>
                 </div>
                 <div className="col-6">
                     <ul id="second-team-player">
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
-                    <Order/>
+                    <Order fir="60" sec="125"/>
+                    <Order fir="110" sec="70"/>
+                    <Order fir="260" sec="97"/>
+                    <Order fir="20" sec="260"/>
+                    <Order fir="920" sec="310"/>
+                    <Order fir="40" sec="95"/>
                     </ul>
                 </div>
 

@@ -13,7 +13,9 @@ class Checkout extends Component {
             password: ''
         }
     }
-
+    done(){
+        console.log('done called')
+    }
 
 
 
@@ -41,8 +43,8 @@ class Checkout extends Component {
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex my-2 justify-content-center links">
-                                    <input type="submit" value="Remove" id="logg" className="btn float-end login_btn mx-3" />
-                                    <input type="submit" value="Add" id="logg" className="btn float-end login_btn" />
+                                    <Link to="/" type="submit" value="Remove" id="logg" className="btn float-end login_btn mx-3" >Remove</Link>
+                                    <input type="submit" onClick={()=>this.done()} value="Add" id="logg" className="btn float-end login_btn" />
 
                                 </div>
                                 <div className="d-flex justify-content-center">
@@ -56,6 +58,7 @@ class Checkout extends Component {
         )
     }
 }
+
 
 
 

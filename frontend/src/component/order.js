@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Order() {
+export default function Order({fir,sec}) {
     return (
         <li className="added_player ">
-            <span className="float-start">250</span>
-            <span className="float-end">Rs.85/-</span>
+            <span className="float-start">{fir} (Kgs)</span>
+            <span className="float-end">Rs.{sec}/-</span>
         </li>
     )
 }
