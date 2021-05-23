@@ -12,6 +12,7 @@ route.get('/t/:type',async (req,res)=>{
     console.log(data);
     res.send(data);
 })
+
 route.post('/',upload.single('product'),async(req,res)=>{
     console.log(req.body)
     console.log(req.file)

@@ -21,7 +21,7 @@ export default function Top_card() {
                             </div>
                         </div>
                         <div class="col">
-                            <img src={fir}class="card_image" alt="" />
+                            <img src="../images/fruit/Goji berry = गोजी बेर.jpg"  class="card_image" alt="" />
                             <h6 class="card_item_text">Hp Laptop</h6>
                             <h6 class="card_item_text">Rs.35000/-</h6>
 
@@ -30,7 +30,7 @@ export default function Top_card() {
                     </div>
                     <div class="row">
                         <div class="col">
-                            <img src={fir} class="card_image" alt="" />
+                            <img src="../images/fruit/Feijoa = फ़ेजोआ.jpg" class="card_image" alt="" />
                             <h6 class="card_item_text">Asus Laptop</h6>
                             <h6 class="card_item_text">Rs.49000/-</h6>
 

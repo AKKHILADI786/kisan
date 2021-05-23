@@ -12,6 +12,10 @@ import Register from './component/Register'
 import PlaceOrder from './component/placeOrder'
 import Checkout from './component/checkout'
 import Contactus from './component/contactus'
+import Fruit from './component/fruit'
+import Vegetable from './component/vegetable'
+import Crop from './component/crop'
+import Spices from './component/spices'
 
 
 function App() {
@@ -28,6 +32,10 @@ function App() {
       <Route exact path="/product" component={Product} />
       <Route exact path="/checkout" component={Checkout} />
       <Route exact path="/contact" component={Contactus} />
+      <Route exact path="/fruit" component={Fruit} />
+      <Route exact path="/vegetable" component={Vegetable} />
+      <Route exact path="/crop" component={Crop} />
+      <Route exact path="/spices" component={Spices} />
 
       </Switch>
       <hr />

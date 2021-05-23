@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../css/cart.css'
+import '../css/Register.css'
 
 
 class Profile extends Component {
@@ -8,7 +9,7 @@ class Profile extends Component {
             <div>
                 <div className="containe container">
                     <div className="d-flex justify-content-center h-100">
-                        <div className="car card">
+                        <div className="car carr card">
                             <div className="card-header">
                                 <div className="container">
                                     <div className="row">

@@ -55,72 +55,28 @@ class Header extends Component {
                 <div className="container-fluid ms-5 main_menu">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active m-3">
-                            <a className="nav-link menu_item" href="index.html">Home </a>
+                            <Link to="/" className="nav-link menu_item">Home </Link>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <a className="nav-link menu_item" href="https://agmarknet.gov.in/">Market Data</a>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <Link to="/fruit" className="nav-link menu_item">Fruits</Link>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <Link to="/vegetable" className="nav-link menu_item" >Vegetables</Link>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <Link to="/spices" className="nav-link menu_item" >spices </Link>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <Link to="/crop" className="nav-link menu_item" >Crops</Link>
+                        </li>
+                        <li className="nav-item active m-3">
+                            <a className="nav-link menu_item" href="https://farmer.gov.in/">Government Policy</a>
                         </li>
 
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Market data
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">Government Annoucements</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Total Todays Trade</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Todays Rates of Different Goods</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Top Gainer</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Top Loser</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                list
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">Action</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Another action</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                trade
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">Action</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Another action</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Rules
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">How to Buy Goods</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">How to sell Goods</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Rights of farmers</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">RIghts of consumer</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Resources
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">Daily Market Report</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Historical Report</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Govt. policy For farmers</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown m-3">
-                            <a className="nav-link dropdown-toggle menu_item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                learn
-            </a>
-                            <ul className="dropdown-menu dropp" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className=" dropdown-item menu_item" href="#">How it work</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">How to Trade</a></li>
-                                <li><a className=" dropdown-item menu_item" href="#">Cultivate New Things </a></li>
-                            </ul>
-                        </li>
+                        
                         <li className="nav-item  m-3">
                             <a className="nav-link menu_item" href="#">About</a>
                         </li>
