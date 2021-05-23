@@ -3,8 +3,14 @@ import '../css/cart.css'
 import '../css/Register.css'
 
 
+
 class Profile extends Component {
+
     render() {
+        let data=JSON.parse(window.sessionStorage.user);
+        console.log(data);
+        console.log(data.id)
+        
         return (
             <div>
                 <div className="containe container">
@@ -13,7 +19,7 @@ class Profile extends Component {
                             <div className="card-header">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col"><h3>Product</h3></div>
+                                        <div className="col"><h3>{data.name}</h3></div>
                                         <div className="col">
                                             
                                             <button className="btn btn-warning float-end mx-2" id="add_product"><i className="fa fa-plus" aria-hidden="true"></i>Sell</button>

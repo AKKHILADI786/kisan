@@ -2,14 +2,18 @@ import axios from 'axios'
 import React, { Component } from 'react'
 import { Link, Redirect } from 'react-router-dom'
 import '../css/login.css'
+import '../css/placeorder.css'
 
 class PlaceOrder extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            username: '',
-            password: ''
+            quantity: '',
+            price: '',
+            productId:'',
+            userId:''
+
         }
     }
     changeHandler = (e) => {
@@ -37,16 +41,21 @@ class PlaceOrder extends Component {
 
     render() {
         const { username, password } = this.state;
+        let pro=this.props.product;
+        console.log(pro)
+        let data=JSON.parse(window.sessionStorage.user);
+        console.log(data);
+
         return (
             <div>
                 <div className="containe container">
-                    <div className="d-flex justify-content-center h-100">
-                        <div className="car card">
+                    <div className="d-flex justify-content-center ">
+                        <div className="car pro_car card">
                             <div className="card-header">
-                                <h3>Product Name</h3>
+                                
 
                             </div>
-                            <div className="card-body">
+                            <div className="card-body pro_body">
                                 <form onSubmit={this.submitHandler}>
                                     <div className="input-group form-group">
                                         <div className="input-group-prepend">
@@ -68,15 +77,12 @@ class PlaceOrder extends Component {
                                     </div>
                                 </form>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer pro_footer">
                                 <div className="d-flex my-2 justify-content-center links">
                                 <input type="submit" value="Buy" id="logg" className="btn float-end login_btn mx-3" />
-                                <input type="submit" value="Sell" id="logg" className="btn float-end login_btn" />
-                                    
+                                <input type="submit" value="Sell" id="logg" className="btn float-end login_btn" />    
                                 </div>
-                                <div className="d-flex justify-content-center">
-
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

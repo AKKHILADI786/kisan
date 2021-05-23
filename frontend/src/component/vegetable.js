@@ -147,8 +147,14 @@ export default function Vegetable() {
                                     </div>
                                 </div>
                                 <div className="col-md-5 border  d-flex align-items-center justify-content-center  border-success">
-                                    <div>
+                                <div>
                                         <div className="text-center">{dat.name}</div>
+                                        <div className=" d-flex align-items-center justify-content-center">
+
+                                        <button onClick={()=>openfile(dat)} className="btn btn-outline-warning remove m-1"><span id="remove_text">Deals</span></button>
+                                        
+                                        </div>
+                                       
                                         
                                     </div>
 
@@ -187,3 +193,8 @@ export default function Vegetable() {
 
 
 
+
+function openfile(data){
+    window.location='/product'
+    window.sessionStorage.product=JSON.stringify(data);
+}

@@ -3,8 +3,9 @@ import logo from '../logo.png'
 import {Link} from 'react-router-dom'
 
 function changevalue(){
-    window.sessionStorage.user=false;
+    
     window.location='/';
+    
 }
 
 class Header extends Component {
@@ -37,7 +38,7 @@ class Header extends Component {
                     </div>
                     <div className="login_register">
                         <Link to="/register" className="btn btn-outline-success my-2 my-sm-0 me-2 upp_btn">Register</Link>
-                        {a?<button onClick={changevalue} className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn">Logout</button>: <Link to="/login" className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" >
+                        {a?<button onClick={()=>changevalue()} className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn">Logout</button>: <Link to="/login" className="btn btn-outline-success my-2 my-sm-0 me-2 active upp_btn" >
                             Login
                             </Link>}
                         

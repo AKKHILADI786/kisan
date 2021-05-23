@@ -27,6 +27,7 @@ route.post('/login',async (req,res)=>{
     req.session.user=data[0].id;
     
     console.log(req.session.user)
+    
     res.send(data);
 })
 route.get('/islogin',async (req,res)=>{

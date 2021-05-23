@@ -23,16 +23,21 @@ class Login extends Component {
         e.preventDefault();
         console.log(this.state)
         axios.post('/user/login',this.state)
-            .then(data=>{
-                if(data.Error){
-                    window.alert(`${data.Error}`)
-                }
-                else{
-                    window.sessionStorage.user=true;
-                    window.alert('Login successfully')
-                    window.location='/';
-
-                }
+            .then((result)=>{
+                let data=result.data
+                
+                    if(data.Error){
+                        window.alert(`${data.Error}`)
+                    }
+                    else{
+                        window.sessionStorage.user=JSON.stringify(data[0]);
+    
+                        window.alert('Login successfully')
+                        window.location='/profile';
+    
+                    }
+                
+                
             })
     }
 

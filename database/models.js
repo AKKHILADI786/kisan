@@ -98,9 +98,6 @@ const orders=db.define('order',{
         type:data.INTEGER(5),
         allowNull:false
     },
-    dealerId:{
-        type:data.INTEGER
-    }
 })
 
 
@@ -124,6 +121,9 @@ orders.belongsTo(products)
 users.hasMany(orders)
 orders.belongsTo(users)
 
+
+orders.hasMany(carts)
+carts.belongsTo(orders)
 
 
 

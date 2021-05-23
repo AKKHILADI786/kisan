@@ -33,7 +33,7 @@ app.use('/images',express.static(__dirname+'/images'))
 //     res.send('jai shree ram')
 // })
 
-db.sync()
+db.sync({alter:true})
     .then(()=>{
         app.listen(PORT,()=>{
             console.log(`server started at http://localhost:${PORT}`)

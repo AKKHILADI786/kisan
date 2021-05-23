@@ -67,6 +67,7 @@ export default function Fruit() {
         console.log(data);
         console.log(data.length);
 
+        
         return (
             <div>
                 
@@ -151,7 +152,8 @@ export default function Fruit() {
                                     <div>
                                         <div className="text-center">{dat.name}</div>
                                         <div className=" d-flex align-items-center justify-content-center">
-                                        <button className="btn btn-outline-warning remove m-1"><span id="remove_text">Deals</span></button>
+
+                                        <button onClick={()=>openfile(dat)} className="btn btn-outline-warning remove m-1"><span id="remove_text">Deals</span></button>
                                         
                                         </div>
                                        
@@ -190,6 +192,9 @@ export default function Fruit() {
 
 
 
-
+function openfile(data){
+    window.location='/product'
+    window.sessionStorage.product=JSON.stringify(data);
+}
 
 
