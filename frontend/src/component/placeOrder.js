@@ -87,14 +87,14 @@ class PlaceOrder extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text  name_box"><i className="fa fa-user" aria-hidden="true"></i></span>
                                         </div>
-                                        <input type="text" name="quantity" value={quantity} onChange={this.changeHandler} className="form-control" id="username" placeholder="Quantity" />
+                                        <input type="text" name="quantity" value={quantity} onChange={this.changeHandler} className="form-control" id="username" placeholder="Quantity (kgs.)" />
 
                                     </div>
                                     <div className="input-group form-group my-3">
                                         <div className="input-group-prepend">
                                             <span className="input-group-text  name_box"><i className="fa fa-key" aria-hidden="true"></i></span>
                                         </div>
-                                        <input type="text" name="price" value={price} onChange={this.changeHandler} className="form-control" id="password" placeholder="Price" />
+                                        <input type="text" name="price" value={price} onChange={this.changeHandler} className="form-control" id="password" placeholder="Price (Per Kgs.)" />
                                     </div>
                                     <div className="row align-items-center remember my-2">
 

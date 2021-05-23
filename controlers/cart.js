@@ -10,12 +10,12 @@ async function getcartByuserId(userId){
     })
     return data;
 }
-async function createCartProduct(userId,productId,dealerId){
-    console.log(userId,productId,dealerId);
+async function createCartProduct(userId,productId,orderId){
+    console.log(userId,productId,orderId);
     const data=await carts.create({
         userId:userId,
         productId:productId,
-        dealerId:dealerId
+        orderId:orderId
     })
     return data;
 }

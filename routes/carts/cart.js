@@ -18,8 +18,8 @@ route.get('/:userId',async (req,res)=>{
 })
 
 route.post('/',async (req,res)=>{
-    console.log(req.body.userId,req.body.productId,req.body.dealerId);
-    const data=await createCartProduct(req.body.userId,req.body.productId,req.body.dealerId);
+    console.log(req.body.userId,req.body.productId,req.body.orderId);
+    const data=await createCartProduct(req.body.userId,req.body.productId,req.body.orderId);
     res.send(data);
 })
 
