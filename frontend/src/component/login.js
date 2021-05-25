@@ -32,8 +32,9 @@ class Login extends Component {
                     else{
                         window.sessionStorage.user=JSON.stringify(data[0]);
     
-                        window.alert('Login successfully')
-                        window.location='/profile';
+                        window.alert('Login successfully \nKnow click on profile on top left corner')
+                        
+                        window.location.reload('/')
     
                     }
                 
