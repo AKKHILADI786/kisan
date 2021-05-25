@@ -34,7 +34,7 @@ class PlaceOrder extends Component {
         let userId;
         if (!window.sessionStorage.user) {
             window.alert('please login first')
-            window.location = '/login';
+            // window.location = '/login';
         }
         else {
             data = JSON.parse(window.sessionStorage.user);
@@ -49,12 +49,14 @@ class PlaceOrder extends Component {
             userId:userId,
             productId:productId
         })
+
         setTimeout(() => {
             axios.post('/order/',this.state)
                 .then((result)=>{
                     let data=result.data
                     console.log(data);
                 })
+            // window.location='/profile'
             
         }, 500);
 

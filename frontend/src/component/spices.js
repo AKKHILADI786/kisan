@@ -151,7 +151,7 @@ export default function Spices() {
                                         <div className="text-center">{dat.name}</div>
                                         <div className=" d-flex align-items-center justify-content-center">
 
-                                        <button onClick={()=>openfile(dat)} className="btn btn-outline-warning remove m-1"><span id="remove_text">Deals</span></button>
+                                        <Link to="/product" onClick={()=>openfile(dat)} className="btn btn-outline-warning remove m-1"><span id="remove_text">Deals</span></Link>
                                         
                                         </div>
                                        
@@ -190,7 +190,7 @@ export default function Spices() {
 
 
 function openfile(data){
-    window.location='/product'
+    // window.location='/product'
     window.sessionStorage.product=JSON.stringify(data);
 }
 
