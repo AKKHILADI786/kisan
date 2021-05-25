@@ -24,11 +24,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
 
-[![ScreenShot](images/model.jpg)](https://oeys.herokuapp.com/)
+[![ScreenShot](images/structure.jpg)](https://oeys.herokuapp.com/)
 
 
 ### Built With
 
+* [React JS]()
 * [Node JS]()
 * [MySQL]()
 * [ExpressJS]()
@@ -42,7 +43,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AKKHILADI786/oeys
+   git clone https://github.com/AKKHILADI786/kisan
    ```
 2. Install NPM packages
    ```sh
@@ -60,19 +61,12 @@ To get a local copy up and running follow these simple steps.
 ├───controlers          
 ├───database            //Database Models
 ├───images              //All images of products
-├───public              //All frontend part
-│   ├───app                  //js Files of All elements   
-│   ├───css                  //css fiels of All frontend Part
-│   ├───fonts                
-│   ├───html                
-│   ├───images               //images of home page
-│   └───js                   // third party libraries
+├───Frontend              // Reactjs based frontend
 ├───routes
-│   ├───carts
-│   ├───dealers
 │   ├───orders
+│   ├───users
+│   ├───cart
 │   ├───product
-│   └───users
 ├───uploads            // Required for dealer files uploading
 └───utills             // for upload lots of product 
     └───jsons
@@ -83,8 +77,8 @@ To get a local copy up and running follow these simple steps.
 ## Contact
 
 
-- [Akshay Kumar Verma](https://github.com/Akkhiladi786)
+- [Akshay Kumar Verma](https://www.linkedin.com/in/akshay786/)
 
 
-Project Link: [https://github.com/AKKHILADI786/oeys](https://github.com/AKKHILADI786/oeys)
+Project Link: [kisan Goods Exchange](https://kisang.herokuapp.com/)
 
