@@ -34,7 +34,7 @@ class Login extends Component {
     
                         window.alert('Login successfully \nKnow click on profile on top left corner')
                         
-                        window.location.reload('/')
+                        
     
                     }
                 
